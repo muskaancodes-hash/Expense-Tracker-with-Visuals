@@ -31,3 +31,24 @@ The program performs basic data analysis by:
 ### Result
 
 The program successfully loads and analyzes the expense dataset and calculates the total amount spent.
+# Part 2: Category-wise Expense Analysis
+
+In this part, the expense data is analyzed based on different categories.
+
+### What This Part Does
+
+* Groups expenses according to their category
+* Calculates the total spending for each category
+* Displays category-wise expenses
+* Identifies the category with the highest spending
+
+### Python Concept Used
+
+* `groupby()`
+* `sum()`
+* `idxmax()`
+* `max()`
+
+### Result
+
+The program successfully calculates total expenses for each category and identifies the highest spending category.
