@@ -48,6 +48,27 @@ In this part, the expense data is analyzed based on different categories.
 * `sum()`
 * `idxmax()`
 * `max()`
+* # Part 3: Expense Visualization
+
+In this part, expense data is visualized using a bar chart.
+
+### What This Part Does
+
+* Displays category-wise expenses in a bar chart
+* Compares spending across different categories
+* Uses Matplotlib for data visualization
+* Adds chart title and labels for better understanding
+
+### Tool Used
+
+* Python
+* Pandas
+* Matplotlib
+
+### Result
+
+A bar chart is generated to clearly show spending patterns across different expense categories.
+
 
 ### Result
 
