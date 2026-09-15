@@ -36,3 +36,17 @@ highest_amount = category_expenses.max()
 
 print("\nHighest Spending Category:")
 print(highest_category, "→ ₹", highest_amount)
+# Expense visualization
+import matplotlib.pyplot as plt
+
+print("\n===== EXPENSE CHART =====")
+
+category_expenses.plot(kind="bar", figsize=(10, 6))
+
+plt.title("Category-wise Expenses")
+plt.xlabel("Category")
+plt.ylabel("Amount (₹)")
+plt.xticks(rotation=45)
+plt.tight_layout()
+
+plt.show()
