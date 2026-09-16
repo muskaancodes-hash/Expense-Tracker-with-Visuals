@@ -64,3 +64,17 @@ highest_day = date_expenses.idxmax()
 highest_day_amount = date_expenses.max()
 
 print(highest_day, "→ ₹", highest_day_amount)
+# Budget alert
+print("\n===== BUDGET ALERT =====")
+
+budget = 50000
+total_expenses = df["Amount"].sum()
+
+print("Budget: ₹", budget)
+print("Total Expenses: ₹", total_expenses)
+
+if total_expenses > budget:
+    print("Alert: You have exceeded your budget!")
+else:
+    remaining = budget - total_expenses
+    print("Budget remaining: ₹", remaining)
