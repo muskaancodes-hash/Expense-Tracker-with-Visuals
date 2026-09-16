@@ -117,3 +117,23 @@ For the current dataset:
 * Remaining Budget: ₹440
 
 The budget alert feature successfully monitors spending against the set budget.
+# Part 6: Excel Report Export
+
+In this part, the expense data is exported into an Excel report.
+
+### What This Part Does
+
+- Creates an Excel report using Pandas
+- Stores the complete expense data
+- Creates a category-wise expense summary
+- Saves the report as `expense_report.xlsx`
+
+### Tools Used
+
+- Python
+- Pandas
+- OpenPyXL
+
+### Result
+
+The Excel report is successfully generated with expense data and category-wise summary.
