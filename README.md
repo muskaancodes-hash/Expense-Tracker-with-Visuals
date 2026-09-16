@@ -96,3 +96,24 @@ The program successfully analyzes daily spending and identifies the highest spen
 ### Result
 
 The program successfully calculates total expenses for each category and identifies the highest spending category.
+# Part 5: Budget Alert
+
+In this part, a budget alert feature is added to the expense tracker.
+
+### What This Part Does
+
+* Sets a spending budget
+* Calculates total expenses
+* Compares expenses with the budget
+* Shows an alert when the budget is exceeded
+* Displays the remaining budget when expenses are within the limit
+
+### Result
+
+For the current dataset:
+
+* Budget: ₹50,000
+* Total Expenses: ₹49,560
+* Remaining Budget: ₹440
+
+The budget alert feature successfully monitors spending against the set budget.
