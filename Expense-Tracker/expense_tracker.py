@@ -78,3 +78,11 @@ if total_expenses > budget:
 else:
     remaining = budget - total_expenses
     print("Budget remaining: ₹", remaining)
+    # Export report to Excel
+print("\n===== EXCEL REPORT =====")
+
+with pd.ExcelWriter("expense_report.xlsx", engine="openpyxl") as writer:
+    df.to_excel(writer, sheet_name="Expenses", index=False)
+    category_expenses.to_excel(writer, sheet_name="Category Summary")
+
+print("Excel report exported successfully!")
