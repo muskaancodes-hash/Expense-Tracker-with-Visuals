@@ -68,6 +68,29 @@ In this part, expense data is visualized using a bar chart.
 ### Result
 
 A bar chart is generated to clearly show spending patterns across different expense categories.
+# Part 4: Date-wise Expense Analysis
+
+In this part, the expense data is analyzed based on dates.
+
+### What This Part Does
+
+* Converts the Date column into datetime format
+* Groups expenses by date
+* Calculates total spending for each day
+* Identifies the highest spending day
+
+### Python Concepts Used
+
+* `pd.to_datetime()`
+* `groupby()`
+* `sum()`
+* `idxmax()`
+* `max()`
+
+### Result
+
+The program successfully analyzes daily spending and identifies the highest spending day.
+
 
 
 ### Result
