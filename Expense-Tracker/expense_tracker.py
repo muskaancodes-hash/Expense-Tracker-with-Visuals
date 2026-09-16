@@ -50,3 +50,17 @@ plt.xticks(rotation=45)
 plt.tight_layout()
 
 plt.show()
+# Date-wise expense analysis
+print("\n===== DATE-WISE EXPENSES =====")
+
+df["Date"] = pd.to_datetime(df["Date"])
+
+date_expenses = df.groupby("Date")["Amount"].sum()
+
+print(date_expenses)
+
+print("\nHighest Spending Day:")
+highest_day = date_expenses.idxmax()
+highest_day_amount = date_expenses.max()
+
+print(highest_day, "→ ₹", highest_day_amount)
