@@ -226,7 +226,7 @@ In this part, the expense tracker was converted into a modern and interactive da
 - Streamlit
 
 ## Result
-
+- Monthly expense analysis and visualization
 A user-friendly dashboard was created to make expense tracking and analysis easier. Users can filter expenses by category, view spending patterns using charts, and monitor their budget from one place.
 ## Conclusion
 
