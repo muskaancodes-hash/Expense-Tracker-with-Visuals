@@ -36,6 +36,34 @@ The program successfully loads and analyzes the expense dataset and calculates t
 In this part, the expense data is analyzed based on different categories.
 
 ### What This Part Does
+# Part 7: Interactive Expense Dashboard
+
+In this part, the expense tracker was converted into a modern and interactive dashboard using Streamlit.
+
+## Dashboard Features
+
+- Total expenses summary
+- Highest spending category
+- Highest spending amount
+- Remaining budget
+- Category-wise expense filter
+- Category-wise bar chart
+- Expense distribution pie chart
+- Budget progress bar
+- Budget status alert
+- Interactive expense data table
+- Custom and clean dashboard UI
+
+## Tools Used
+
+- Python
+- Pandas
+- Matplotlib
+- Streamlit
+
+## Result
+
+A user-friendly dashboard was created to make expense tracking and analysis easier. Users can filter expenses by category, view spending patterns using charts, and monitor their budget from one place.
 
 * Groups expenses according to their category
 * Calculates the total spending for each category
