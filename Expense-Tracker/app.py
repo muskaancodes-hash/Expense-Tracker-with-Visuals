@@ -245,7 +245,36 @@ else:
     st.success(
         f"✅ You have ₹{remaining_budget:,.0f} remaining from your ₹{budget:,.0f} budget."
     )
+# ---------------- MONTHLY EXPENSES ----------------
 
+st.markdown(
+    '<div class="section-title">📅 Monthly Expenses</div>',
+    unsafe_allow_html=True
+)
+
+monthly_expenses = (
+    filtered_df
+    .groupby(filtered_df["Date"].dt.to_period("M"))["Amount"]
+    .sum()
+)
+
+monthly_expenses.index = monthly_expenses.index.astype(str)
+
+fig3, ax3 = plt.subplots(figsize=(10, 5))
+
+monthly_expenses.plot(
+    kind="bar",
+    ax=ax3
+)
+
+ax3.set_xlabel("Month")
+ax3.set_ylabel("Amount (₹)")
+ax3.set_title("Monthly Expense Overview")
+plt.xticks(rotation=0)
+
+plt.tight_layout()
+
+st.pyplot(fig3)
 
 # ---------------- DATA TABLE ----------------
 
