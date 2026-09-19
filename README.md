@@ -200,7 +200,7 @@ In this part, an interactive expense dashboard is created using Streamlit.
 ### Result
 
 An interactive dashboard is created to help users understand and monitor their expenses through summary information, charts, and data tables.
-# Part 7: Interactive Expense Dashboard
+# Part 8: Interactive Expense Dashboard
 
 In this part, the expense tracker was converted into a modern and interactive dashboard using Streamlit.
 
