@@ -228,3 +228,6 @@ In this part, the expense tracker was converted into a modern and interactive da
 ## Result
 
 A user-friendly dashboard was created to make expense tracking and analysis easier. Users can filter expenses by category, view spending patterns using charts, and monitor their budget from one place.
+## Conclusion
+
+The Expense Tracker with Visuals project successfully analyzes expenses, visualizes spending patterns, monitors the budget, and provides an interactive dashboard for easy expense management.
