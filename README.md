@@ -232,3 +232,31 @@ In this part, an interactive expense dashboard is created using Streamlit.
 ### Result
 
 An interactive dashboard is created to help users understand and monitor their expenses through summary information, charts, and data tables.
+# Part 7: Interactive Expense Dashboard
+
+In this part, the expense tracker was converted into a modern and interactive dashboard using Streamlit.
+
+## Dashboard Features
+
+- Total expenses summary
+- Highest spending category
+- Highest spending amount
+- Remaining budget
+- Category-wise expense filter
+- Category-wise bar chart
+- Expense distribution pie chart
+- Budget progress bar
+- Budget status alert
+- Interactive expense data table
+- Custom and clean dashboard UI
+
+## Tools Used
+
+- Python
+- Pandas
+- Matplotlib
+- Streamlit
+
+## Result
+
+A user-friendly dashboard was created to make expense tracking and analysis easier. Users can filter expenses by category, view spending patterns using charts, and monitor their budget from one place.
