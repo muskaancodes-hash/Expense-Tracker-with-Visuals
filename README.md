@@ -113,7 +113,51 @@ In this part, a budget alert feature is added to the expense tracker.
 For the current dataset:
 
 * Budget: ₹50,000
-* Total Expenses: ₹49,560
+* Total Expenses: ₹49,560# Part 7: Expense Dashboard
+
+In this part, an interactive expense dashboard is created using Streamlit.
+
+### Dashboard Features
+
+- Displays total expenses
+- Shows highest spending category
+- Displays remaining budget
+- Generates category-wise expense chart
+- Shows complete expense data
+- Displays budget status
+
+### Tools Used
+
+- Python
+- Pandas
+- Matplotlib
+- Streamlit
+
+### Result
+
+An interactive dashboard is created to help users understand and monitor their expenses through summary information, charts, and data tables.# Part 7: Expense Dashboard
+
+In this part, an interactive expense dashboard is created using Streamlit.
+
+### Dashboard Features
+
+- Displays total expenses
+- Shows highest spending category
+- Displays remaining budget
+- Generates category-wise expense chart
+- Shows complete expense data
+- Displays budget status
+
+### Tools Used
+
+- Python
+- Pandas
+- Matplotlib
+- Streamlit
+
+### Result
+
+An interactive dashboard is created to help users understand and monitor their expenses through summary information, charts, and data tables.
 * Remaining Budget: ₹440
 
 The budget alert feature successfully monitors spending against the set budget.
@@ -137,3 +181,26 @@ In this part, the expense data is exported into an Excel report.
 ### Result
 
 The Excel report is successfully generated with expense data and category-wise summary.
+# Part 7: Expense Dashboard
+
+In this part, an interactive expense dashboard is created using Streamlit.
+
+### Dashboard Features
+
+- Displays total expenses
+- Shows highest spending category
+- Displays remaining budget
+- Generates category-wise expense chart
+- Shows complete expense data
+- Displays budget status
+
+### Tools Used
+
+- Python
+- Pandas
+- Matplotlib
+- Streamlit
+
+### Result
+
+An interactive dashboard is created to help users understand and monitor their expenses through summary information, charts, and data tables.
